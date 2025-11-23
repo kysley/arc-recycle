@@ -31,6 +31,7 @@ function SearchBar({ searchTerm, setSearchTerm }: SearchBarProps) {
 				onChange={(e) => setSearchTerm(e.target.value)}
 				placeholder='Press "/" to search items...'
 				autoFocus
+				className="search-input"
 			/>
 		</div>
 	);

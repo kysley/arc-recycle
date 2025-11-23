@@ -15,40 +15,40 @@ function ItemRow({ item, showDetails }: ItemRowProps) {
 
 	return (
 		<>
-			<tr className={item.safe_to_recycle ? "item-row recyclable" : "item-row"}>
-				<td className="item-name">{item.name}</td>
-				<td className="item-weight">{item.weight ?? "N/A"}</td>
-				<td className="item-value">{item.value}</td>
-				<td className="item-usage">{questCount}</td>
-				<td className="item-usage">{projectCount}</td>
-				<td className="item-usage">{workshopCount}</td>
+			<tr className={item.safe_to_recycle ? "item-row item-row--recyclable" : "item-row"}>
+				<td className="table-cell cell--name">{item.name}</td>
+				<td className="table-cell cell--weight">{item.weight ?? "N/A"}</td>
+				<td className="table-cell cell--value">{item.value}</td>
+				<td className="table-cell cell--usage">{questCount}</td>
+				<td className="table-cell cell--usage">{projectCount}</td>
+				<td className="table-cell cell--usage">{workshopCount}</td>
 			</tr>
 			{shouldShowAdditionalInfo && (
 				<tr className="item-details-row">
-					<td colSpan={6} className="item-details">
+					<td colSpan={6} className="table-cell cell--details">
 						<div className="usage-details">
-							{questCount && (
-								<div className="detail-section detail-quests">
-									<strong>Quests:</strong>
-									<ul>
-										<li>{questCount} required for quests</li>
+							{questCount > 0 && (
+								<div className="detail-section detail-section--quests">
+									<strong className="detail-section__title">Quests:</strong>
+									<ul className="detail-section__list">
+										<li className="detail-section__item">{questCount} required for quests</li>
 									</ul>
 								</div>
 							)}
-							{projectCount && (
-								<div className="detail-section detail-projects">
-									<strong>Projects:</strong>
-									<ul>
-										<li>{projectCount} required for projects</li>
+							{projectCount > 0 && (
+								<div className="detail-section detail-section--projects">
+									<strong className="detail-section__title">Projects:</strong>
+									<ul className="detail-section__list">
+										<li className="detail-section__item">{projectCount} required for projects</li>
 									</ul>
 								</div>
 							)}
-							{workshopCount && (
-								<div className="detail-section detail-workshop">
-									<strong>Workshop Upgrades:</strong>
-									<ul>
+							{workshopCount > 0 && (
+								<div className="detail-section detail-section--workshop">
+									<strong className="detail-section__title">Workshop Upgrades:</strong>
+									<ul className="detail-section__list">
 										{item.used_in?.workshop_upgrades?.map((upgrade, idx) => (
-											<li key={idx}>
+											<li key={idx} className="detail-section__item">
 												{upgrade.station} (Level {upgrade.level}) -{" "}
 												{upgrade.quantity}x
 											</li>

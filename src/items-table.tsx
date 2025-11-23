@@ -9,14 +9,14 @@ interface ItemsTableProps {
 function ItemsTable({ items, showDetails }: ItemsTableProps) {
 	return (
 		<table className="items-table">
-			<thead>
+			<thead className="table-header">
 				<tr>
-					<th>NAME</th>
-					<th>WEIGHT</th>
-					<th>VALUE</th>
-					<th>QUESTS</th>
-					<th>PROJECTS</th>
-					<th>WORKSHOP</th>
+					<th className="table-header-cell">NAME</th>
+					<th className="table-header-cell">WEIGHT</th>
+					<th className="table-header-cell">VALUE</th>
+					<th className="table-header-cell">QUESTS</th>
+					<th className="table-header-cell">PROJECTS</th>
+					<th className="table-header-cell">WORKSHOP</th>
 				</tr>
 			</thead>
 			<tbody>

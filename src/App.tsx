@@ -36,14 +36,14 @@ function App() {
 	return (
 		<div className="app">
 			<header className="app-header">
-				<h1>ARC RAIDERS LOOT SEARCH</h1>
+				<h1 className="app-title">ARC RAIDERS LOOT SEARCH</h1>
 				<SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 				<div className="item-count">
 					{filteredItems.length} / {itemsArray.length} items
 				</div>
 			</header>
 
-			<main className="items-container">
+			<main>
 				<ItemsTable
 					items={filteredItems}
 					showDetails={searchTerm.trim().length > 0}

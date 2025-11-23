@@ -1,0 +1,1590 @@
+{
+	"items": {
+		"leaper_pulse_unit": {
+			"id": "leaper_pulse_unit",
+			"name": "Leaper Pulse Unit",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 5000,
+			"used_in": {
+				"quests": { "quantity": 1 },
+				"projects": { "quantity": 3 },
+				"workshop_upgrades": [
+					{ "station": "utility_station", "level": 5, "quantity": 4 }
+				]
+			}
+		},
+		"power_rod": {
+			"id": "power_rod",
+			"name": "Power Rod",
+			"categories": ["Exodus"],
+			"weight": 1,
+			"value": 5500,
+			"used_in": {
+				"quests": { "quantity": 1 }
+			}
+		},
+		"rocketeer_driver": {
+			"id": "rocketeer_driver",
+			"name": "Rocketeer Driver",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 5000,
+			"used_in": {
+				"quests": { "quantity": 1 },
+				"workshop_upgrades": [
+					{ "station": "explosives_station", "level": 5, "quantity": 3 }
+				]
+			}
+		},
+		"surveyor_vault": {
+			"id": "surveyor_vault",
+			"name": "Surveyor Vault",
+			"categories": ["ARC"],
+			"weight": 0.75,
+			"value": 2000,
+			"used_in": {
+				"quests": { "quantity": 1 },
+				"workshop_upgrades": [
+					{ "station": "medical_lab", "level": 5, "quantity": 5 }
+				]
+			}
+		},
+		"antiseptic": {
+			"id": "antiseptic",
+			"name": "Antiseptic",
+			"categories": ["Medical"],
+			"weight": 1,
+			"value": 1000,
+			"used_in": {
+				"quests": { "quantity": 2 },
+				"workshop_upgrades": [
+					{ "station": "medical_lab", "level": 5, "quantity": 8 }
+				]
+			}
+		},
+		"hornet_driver": {
+			"id": "hornet_driver",
+			"name": "Hornet Driver",
+			"categories": ["ARC"],
+			"weight": 0.75,
+			"value": 2000,
+			"used_in": {
+				"quests": { "quantity": 1 },
+				"workshop_upgrades": [
+					{ "station": "gear_bench", "level": 3, "quantity": 5 }
+				]
+			}
+		},
+		"syringe": {
+			"id": "syringe",
+			"name": "Syringe",
+			"categories": ["Medical"],
+			"weight": 0.3,
+			"value": 5000,
+			"used_in": {
+				"quests": { "quantity": 2 }
+			}
+		},
+		"wasp_driver": {
+			"id": "wasp_driver",
+			"name": "Wasp Driver",
+			"categories": ["ARC"],
+			"weight": 0.6,
+			"value": 1000,
+			"used_in": {
+				"quests": { "quantity": 1 },
+				"workshop_upgrades": [
+					{ "station": "gunsmith", "level": 3, "quantity": 8 }
+				]
+			}
+		},
+		"water_pump": {
+			"id": "water_pump",
+			"name": "Water Pump",
+			"categories": ["Industrial"],
+			"weight": 2,
+			"value": 1000,
+			"used_in": {
+				"quests": { "quantity": 2 }
+			}
+		},
+		"snitch_scanner": {
+			"id": "snitch_scanner",
+			"name": "Snitch Scanner",
+			"categories": ["ARC"],
+			"weight": 0.75,
+			"value": 2000,
+			"used_in": {
+				"quests": { "quantity": 2 },
+				"workshop_upgrades": [
+					{ "station": "utility_station", "level": 3, "quantity": 6 }
+				]
+			}
+		},
+		"magnetic_accelerator": {
+			"id": "magnetic_accelerator",
+			"name": "Magnetic Accelerator",
+			"categories": ["Exodus"],
+			"weight": 1,
+			"value": 5500,
+			"used_in": {
+				"projects": { "quantity": 3 }
+			}
+		},
+		"exodus_modules": {
+			"id": "exodus_modules",
+			"name": "Exodus Modules",
+			"categories": ["Exodus"],
+			"weight": 1,
+			"value": 2750,
+			"used_in": {
+				"projects": { "quantity": 1 }
+			}
+		},
+		"adv_electrical_components": {
+			"id": "adv_electrical_components",
+			"name": "Adv. Electrical Components",
+			"categories": ["Electrical"],
+			"weight": 1,
+			"value": 1750,
+			"used_in": {
+				"projects": { "quantity": 5 },
+				"workshop_upgrades": [
+					{ "station": "gear_bench", "level": 5, "quantity": 5 },
+					{ "station": "utility_station", "level": 5, "quantity": 5 }
+				]
+			}
+		},
+		"humidifier": {
+			"id": "humidifier",
+			"name": "Humidifier",
+			"categories": ["Residential"],
+			"weight": 2,
+			"value": 1000,
+			"used_in": {
+				"projects": { "quantity": 5 }
+			}
+		},
+		"sensors": {
+			"id": "sensors",
+			"name": "Sensors",
+			"categories": ["Technological", "Security"],
+			"weight": 0.3,
+			"value": 500,
+			"used_in": {
+				"projects": { "quantity": 20 }
+			}
+		},
+		"cooling_fan": {
+			"id": "cooling_fan",
+			"name": "Cooling Fan",
+			"categories": ["Technological"],
+			"weight": 3,
+			"value": 2000,
+			"used_in": {
+				"projects": { "quantity": 5 }
+			}
+		},
+		"battery": {
+			"id": "battery",
+			"name": "Battery",
+			"categories": ["Technological", "Electrical"],
+			"weight": 0.25,
+			"value": 250,
+			"used_in": {
+				"projects": { "quantity": 30 }
+			}
+		},
+		"light_bulb": {
+			"id": "light_bulb",
+			"name": "Light Bulb",
+			"categories": ["Electrical"],
+			"weight": 0.2,
+			"value": 2000,
+			"used_in": {
+				"projects": { "quantity": 5 }
+			}
+		},
+		"electrical_components": {
+			"id": "electrical_components",
+			"name": "Electrical Components",
+			"categories": ["Electrical"],
+			"weight": 0.5,
+			"value": 640,
+			"used_in": {
+				"projects": { "quantity": 30 },
+				"workshop_upgrades": [
+					{ "station": "gear_bench", "level": 3, "quantity": 5 },
+					{ "station": "utility_station", "level": 3, "quantity": 5 }
+				]
+			}
+		},
+		"wires": {
+			"id": "wires",
+			"name": "Wires",
+			"categories": ["Technological", "Electrical"],
+			"weight": 0.25,
+			"value": 200,
+			"used_in": {
+				"projects": { "quantity": 30 }
+			}
+		},
+		"steel_spring": {
+			"id": "steel_spring",
+			"name": "Steel Spring",
+			"categories": ["Technological"],
+			"weight": 0.25,
+			"value": 300,
+			"used_in": {
+				"projects": { "quantity": 15 }
+			}
+		},
+		"durable_cloth": {
+			"id": "durable_cloth",
+			"name": "Durable Cloth",
+			"categories": ["Commercial", "Medical"],
+			"weight": 1.5,
+			"value": 640,
+			"used_in": {
+				"projects": { "quantity": 35 },
+				"workshop_upgrades": [
+					{ "station": "medical_lab", "level": 3, "quantity": 5 }
+				]
+			}
+		},
+		"arc_alloy": {
+			"id": "arc_alloy",
+			"name": "ARC Alloy",
+			"categories": ["ARC"],
+			"weight": 0.25,
+			"value": 200,
+			"used_in": {
+				"projects": { "quantity": 80 }
+			}
+		},
+		"rubber_parts": {
+			"id": "rubber_parts",
+			"name": "Rubber Parts",
+			"categories": ["Mechanical", "Electrical", "Industrial"],
+			"weight": 0.1,
+			"value": 50,
+			"used_in": {
+				"projects": { "quantity": 150 }
+			}
+		},
+		"metal_parts": {
+			"id": "metal_parts",
+			"name": "Metal Parts",
+			"categories": ["Technological", "Industrial", "Mechanical", "Electrical"],
+			"weight": 0.1,
+			"value": 50,
+			"used_in": {
+				"projects": { "quantity": 200 }
+			}
+		},
+		"accordion": {
+			"id": "accordion",
+			"name": "Accordion",
+			"categories": ["Residential"],
+			"weight": 3,
+			"value": 2000,
+			"safe_to_recycle": true
+		},
+		"alarm_clock": {
+			"id": "alarm_clock",
+			"name": "Alarm Clock",
+			"categories": ["Residential"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"arc_coolant": {
+			"id": "arc_coolant",
+			"name": "ARC Coolant",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"arc_flex_rubber": {
+			"id": "arc_flex_rubber",
+			"name": "ARC Flex Rubber",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"arc_performance_steel": {
+			"id": "arc_performance_steel",
+			"name": "ARC Performance Steel",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"arc_synthetic_resin": {
+			"id": "arc_synthetic_resin",
+			"name": "ARC Synthetic Resin",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"arc_thermo_lining": {
+			"id": "arc_thermo_lining",
+			"name": "ARC Thermo Lining",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"bicycle_pump": {
+			"id": "bicycle_pump",
+			"name": "Bicycle Pump",
+			"categories": ["Residential"],
+			"weight": 3,
+			"value": 2000,
+			"safe_to_recycle": true
+		},
+		"broken_flashlight": {
+			"id": "broken_flashlight",
+			"name": "Broken Flashlight",
+			"categories": ["Security"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"broken_guidance_system": {
+			"id": "broken_guidance_system",
+			"name": "Broken Guidance System",
+			"categories": ["Industrial"],
+			"weight": 3,
+			"value": 2000,
+			"safe_to_recycle": true
+		},
+		"broken_handheld_radio": {
+			"id": "broken_handheld_radio",
+			"name": "Broken Handheld Radio",
+			"categories": ["Security"],
+			"weight": 3,
+			"value": 2000,
+			"safe_to_recycle": true
+		},
+		"broken_handcuffs": {
+			"id": "broken_handcuffs",
+			"name": "Broken Handcuffs",
+			"categories": ["Security"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"broken_taser": {
+			"id": "broken_taser",
+			"name": "Broken Taser",
+			"categories": ["Security"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"burned_arc_circuitry": {
+			"id": "burned_arc_circuitry",
+			"name": "Burned ARC Circuitry",
+			"categories": ["ARC"],
+			"weight": 0.25,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"camera_lens": {
+			"id": "camera_lens",
+			"name": "Camera Lens",
+			"categories": ["Security"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"candle_holder": {
+			"id": "candle_holder",
+			"name": "Candle Holder",
+			"categories": ["Residential"],
+			"weight": 2,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"coolant": {
+			"id": "coolant",
+			"name": "Coolant",
+			"categories": ["Mechanical"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"cooling_coil": {
+			"id": "cooling_coil",
+			"name": "Cooling Coil",
+			"categories": ["Industrial"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"crumpled_plastic_bottle": {
+			"id": "crumpled_plastic_bottle",
+			"name": "Crumpled Plastic Bottle",
+			"categories": ["Residential"],
+			"weight": 0.8,
+			"value": 270,
+			"safe_to_recycle": true
+		},
+		"damaged_arc_motion_core": {
+			"id": "damaged_arc_motion_core",
+			"name": "Damaged ARC Motion Core",
+			"categories": ["ARC"],
+			"weight": 0.25,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"damaged_arc_powercell": {
+			"id": "damaged_arc_powercell",
+			"name": "Damaged ARC Powercell",
+			"categories": ["ARC"],
+			"weight": 0.25,
+			"value": 293,
+			"safe_to_recycle": true
+		},
+		"deflated_football": {
+			"id": "deflated_football",
+			"name": "Deflated Football",
+			"categories": ["Residential"],
+			"weight": 0.8,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"diving_googles": {
+			"id": "diving_googles",
+			"name": "Diving Googles",
+			"categories": ["Residential"],
+			"weight": 2,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"dried_out_arc_resin": {
+			"id": "dried_out_arc_resin",
+			"name": "Dried-Out ARC Resin",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"expired_respirator": {
+			"id": "expired_respirator",
+			"name": "Expired Respirator",
+			"categories": ["Medical"],
+			"weight": 2,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"flute": {
+			"id": "flute",
+			"name": "Flute",
+			"categories": ["Residential"],
+			"weight": 2,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"frying_pan": {
+			"id": "frying_pan",
+			"name": "Frying Pan",
+			"categories": ["Residential"],
+			"weight": 2,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"garlic_press": {
+			"id": "garlic_press",
+			"name": "Garlic Press",
+			"categories": ["Commercial", "Residential"],
+			"weight": 0.8,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"headphones": {
+			"id": "headphones",
+			"name": "Headphones",
+			"categories": ["Commercial", "Residential"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"household_cleaner": {
+			"id": "household_cleaner",
+			"name": "Household Cleaner",
+			"categories": ["Residential"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"ice_cream_scooper": {
+			"id": "ice_cream_scooper",
+			"name": "Ice Cream Scooper",
+			"categories": ["Commercial"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"impure_arc_coolant": {
+			"id": "impure_arc_coolant",
+			"name": "Impure ARC Coolant",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"industrial_charger": {
+			"id": "industrial_charger",
+			"name": "Industrial Charger",
+			"categories": ["Industrial"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"industrial_magnet": {
+			"id": "industrial_magnet",
+			"name": "Industrial Magnet",
+			"categories": ["Industrial"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"metal_brackets": {
+			"id": "metal_brackets",
+			"name": "Metal Brackets",
+			"categories": ["Mechanical", "Electrical"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"number_plate": {
+			"id": "number_plate",
+			"name": "Number Plate",
+			"categories": ["Mechanical"],
+			"weight": 0.8,
+			"value": 80,
+			"safe_to_recycle": true
+		},
+		"polluted_air_filter": {
+			"id": "polluted_air_filter",
+			"name": "Polluted Air Filter",
+			"categories": ["Industrial"],
+			"weight": 0.8,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"portable_tv": {
+			"id": "portable_tv",
+			"name": "Portable TV",
+			"categories": ["Residential"],
+			"weight": 3,
+			"value": 2000,
+			"safe_to_recycle": true
+		},
+		"power_bank": {
+			"id": "power_bank",
+			"name": "Power Bank",
+			"categories": ["Electrical", "Residential", "Commercial"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"projector": {
+			"id": "projector",
+			"name": "Projector",
+			"categories": ["Residential"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"radio": {
+			"id": "radio",
+			"name": "Radio",
+			"categories": ["Commercial", "Residential"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"remote_control": {
+			"id": "remote_control",
+			"name": "Remote Control",
+			"categories": ["Residential"],
+			"weight": 0.8,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"ripped_safety_vest": {
+			"id": "ripped_safety_vest",
+			"name": "Ripped Safety Vest",
+			"categories": ["Industrial"],
+			"weight": 0.8,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"rubber_pad": {
+			"id": "rubber_pad",
+			"name": "Rubber Pad",
+			"categories": ["Electrical"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"ruined_accordion": {
+			"id": "ruined_accordion",
+			"name": "Ruined Accordion",
+			"categories": ["Residential"],
+			"weight": 3,
+			"value": 2000,
+			"safe_to_recycle": true
+		},
+		"ruined_baton": {
+			"id": "ruined_baton",
+			"name": "Ruined Baton",
+			"categories": ["Security"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"ruined_handcuffs": {
+			"id": "ruined_handcuffs",
+			"name": "Ruined Handcuffs",
+			"categories": ["Security"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"ruined_parachute": {
+			"id": "ruined_parachute",
+			"name": "Ruined Parachute",
+			"categories": ["Exodus"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"ruined_riot_shield": {
+			"id": "ruined_riot_shield",
+			"name": "Ruined Riot Shield",
+			"categories": ["Security"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"ruined_tactical_vest": {
+			"id": "ruined_tactical_vest",
+			"name": "Ruined Tactical Vest",
+			"categories": ["Security"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"rusted_bolts": {
+			"id": "rusted_bolts",
+			"name": "Rusted Bolts",
+			"categories": ["Mechanical", "Industrial"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"rusty_arc_steel": {
+			"id": "rusty_arc_steel",
+			"name": "Rusty ARC Steel",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"spotter_relay": {
+			"id": "spotter_relay",
+			"name": "Spotter Relay",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 5000,
+			"safe_to_recycle": true
+		},
+		"spring_cushion": {
+			"id": "spring_cushion",
+			"name": "Spring Cushion",
+			"categories": ["Commercial", "Residential"],
+			"weight": 2,
+			"value": 2000,
+			"safe_to_recycle": true
+		},
+		"tattered_arc_lining": {
+			"id": "tattered_arc_lining",
+			"name": "Tattered ARC Lining",
+			"categories": ["ARC"],
+			"weight": 1,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"tattered_clothes": {
+			"id": "tattered_clothes",
+			"name": "Tattered Clothes",
+			"categories": ["Residential"],
+			"weight": 0.8,
+			"value": 640,
+			"safe_to_recycle": true
+		},
+		"thermostat": {
+			"id": "thermostat",
+			"name": "Thermostat",
+			"categories": ["Residential"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"torn_blanket": {
+			"id": "torn_blanket",
+			"name": "Torn Blanket",
+			"categories": ["Residential", "Medical"],
+			"weight": 2,
+			"value": 5000,
+			"safe_to_recycle": true
+		},
+		"turbo_pump": {
+			"id": "turbo_pump",
+			"name": "Turbo Pump",
+			"categories": ["Exodus"],
+			"weight": 3,
+			"value": 2000,
+			"safe_to_recycle": true
+		},
+		"water_filter": {
+			"id": "water_filter",
+			"name": "Water Filter",
+			"categories": ["Industrial"],
+			"weight": 2,
+			"value": 1000,
+			"safe_to_recycle": true
+		},
+		"dog_collar": {
+			"id": "dog_collar",
+			"name": "Dog Collar",
+			"categories": ["Residential"],
+			"weight": null,
+			"value": 640,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "scrappy", "level": 2, "quantity": 1 }
+				]
+			}
+		},
+		"lemon": {
+			"id": "lemon",
+			"name": "Lemon",
+			"categories": ["Nature"],
+			"weight": null,
+			"value": 640,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "scrappy", "level": 3, "quantity": 3 }
+				]
+			}
+		},
+		"apricot": {
+			"id": "apricot",
+			"name": "Apricot",
+			"categories": ["Nature"],
+			"weight": null,
+			"value": 640,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "scrappy", "level": 3, "quantity": 3 },
+					{ "station": "scrappy", "level": 5, "quantity": 12 }
+				]
+			}
+		},
+		"prickly_pear": {
+			"id": "prickly_pear",
+			"name": "Prickly Pear",
+			"categories": ["Nature"],
+			"weight": null,
+			"value": 640,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "scrappy", "level": 4, "quantity": 6 }
+				]
+			}
+		},
+		"olives": {
+			"id": "olives",
+			"name": "Olives",
+			"categories": ["Nature"],
+			"weight": null,
+			"value": 640,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "scrappy", "level": 4, "quantity": 6 }
+				]
+			}
+		},
+		"cat_bed": {
+			"id": "cat_bed",
+			"name": "Cat Bed",
+			"categories": ["Commercial", "Residential"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "scrappy", "level": 5, "quantity": 1 }
+				]
+			}
+		},
+		"mushroom": {
+			"id": "mushroom",
+			"name": "Mushroom",
+			"categories": ["Nature"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "scrappy", "level": 5, "quantity": 12 }
+				]
+			}
+		},
+		"very_comfortable_pillow": {
+			"id": "very_comfortable_pillow",
+			"name": "Very Comfortable Pillow",
+			"categories": ["Commercial", "Residential"],
+			"weight": null,
+			"value": 2000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "scrappy", "level": 5, "quantity": 3 }
+				]
+			}
+		},
+		"rusted_tools": {
+			"id": "rusted_tools",
+			"name": "Rusted Tools",
+			"categories": ["Mechanical"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "gunsmith", "level": 2, "quantity": 3 }
+				]
+			}
+		},
+		"mechanical_components": {
+			"id": "mechanical_components",
+			"name": "Mechanical Components",
+			"categories": ["Mechanical"],
+			"weight": null,
+			"value": 2000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "gunsmith", "level": 3, "quantity": 5 }
+				]
+			}
+		},
+		"rusted_gear": {
+			"id": "rusted_gear",
+			"name": "Rusted Gear",
+			"categories": ["Industrial", "Mechanical"],
+			"weight": null,
+			"value": 2000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "gunsmith", "level": 4, "quantity": 3 }
+				]
+			}
+		},
+		"adv_mechanical_components": {
+			"id": "adv_mechanical_components",
+			"name": "Adv. Mechanical Components",
+			"categories": ["Mechanical"],
+			"weight": null,
+			"value": 1750,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "gunsmith", "level": 5, "quantity": 5 }
+				]
+			}
+		},
+		"sentinel_firing_core": {
+			"id": "sentinel_firing_core",
+			"name": "Sentinel Firing Core",
+			"categories": ["ARC"],
+			"weight": null,
+			"value": 3000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "gunsmith", "level": 5, "quantity": 4 }
+				]
+			}
+		},
+		"power_cable": {
+			"id": "power_cable",
+			"name": "Power Cable",
+			"categories": ["Electrical"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "gear_bench", "level": 2, "quantity": 3 }
+				]
+			}
+		},
+		"industrial_battery": {
+			"id": "industrial_battery",
+			"name": "Industrial Battery",
+			"categories": ["Industrial", "Electrical"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "gear_bench", "level": 4, "quantity": 3 }
+				]
+			}
+		},
+		"bastion_cell": {
+			"id": "bastion_cell",
+			"name": "Bastion Cell",
+			"categories": ["ARC"],
+			"weight": null,
+			"value": 5000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "gear_bench", "level": 5, "quantity": 6 }
+				]
+			}
+		},
+		"cracked_bioscanner": {
+			"id": "cracked_bioscanner",
+			"name": "Cracked Bioscanner",
+			"categories": ["Medical"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "medical_lab", "level": 2, "quantity": 2 }
+				]
+			}
+		},
+		"tick_pod": {
+			"id": "tick_pod",
+			"name": "Tick Pod",
+			"categories": ["ARC"],
+			"weight": null,
+			"value": 640,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "medical_lab", "level": 3, "quantity": 8 }
+				]
+			}
+		},
+		"rusted_shut_medical_kit": {
+			"id": "rusted_shut_medical_kit",
+			"name": "Rusted Shut Medical Kit",
+			"categories": ["Medical"],
+			"weight": null,
+			"value": 2000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "medical_lab", "level": 4, "quantity": 3 }
+				]
+			}
+		},
+		"toaster": {
+			"id": "toaster",
+			"name": "Toaster",
+			"categories": ["Residential"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "refiner", "level": 2, "quantity": 3 }
+				]
+			}
+		},
+		"fireball_burner": {
+			"id": "fireball_burner",
+			"name": "Fireball Burner",
+			"categories": ["ARC"],
+			"weight": null,
+			"value": 640,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "refiner", "level": 3, "quantity": 8 }
+				]
+			}
+		},
+		"arc_motion_core": {
+			"id": "arc_motion_core",
+			"name": "ARC Motion Core",
+			"categories": ["ARC"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "refiner", "level": 3, "quantity": 5 }
+				]
+			}
+		},
+		"motor": {
+			"id": "motor",
+			"name": "Motor",
+			"categories": ["Mechanical"],
+			"weight": null,
+			"value": 2000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "refiner", "level": 4, "quantity": 3 }
+				]
+			}
+		},
+		"arc_circuitry": {
+			"id": "arc_circuitry",
+			"name": "ARC Circuitry",
+			"categories": ["ARC"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "refiner", "level": 5, "quantity": 10 }
+				]
+			}
+		},
+		"bombardier_cell": {
+			"id": "bombardier_cell",
+			"name": "Bombardier Cell",
+			"categories": ["ARC"],
+			"weight": null,
+			"value": 5000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "refiner", "level": 5, "quantity": 6 }
+				]
+			}
+		},
+		"synthesized_fuel": {
+			"id": "synthesized_fuel",
+			"name": "Synthesized Fuel",
+			"categories": ["Exodus"],
+			"weight": null,
+			"value": 750,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "explosives_station", "level": 2, "quantity": 3 }
+				]
+			}
+		},
+		"pop_trigger": {
+			"id": "pop_trigger",
+			"name": "Pop Trigger",
+			"categories": ["ARC"],
+			"weight": null,
+			"value": 640,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "explosives_station", "level": 3, "quantity": 5 }
+				]
+			}
+		},
+		"crude_explosives": {
+			"id": "crude_explosives",
+			"name": "Crude Explosives",
+			"categories": ["Industrial", "Security"],
+			"weight": null,
+			"value": 270,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "explosives_station", "level": 3, "quantity": 5 }
+				]
+			}
+		},
+		"laboratory_reagents": {
+			"id": "laboratory_reagents",
+			"name": "Laboratory Reagents",
+			"categories": ["Medical"],
+			"weight": null,
+			"value": 2000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "explosives_station", "level": 4, "quantity": 3 }
+				]
+			}
+		},
+		"explosive_compound": {
+			"id": "explosive_compound",
+			"name": "Explosive Compound",
+			"categories": ["Industrial", "Security"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "explosives_station", "level": 5, "quantity": 5 }
+				]
+			}
+		},
+		"damaged_heat_sink": {
+			"id": "damaged_heat_sink",
+			"name": "Damaged Heat Sink",
+			"categories": ["Technological"],
+			"weight": null,
+			"value": 1000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "utility_station", "level": 2, "quantity": 2 }
+				]
+			}
+		},
+		"fried_motherboard": {
+			"id": "fried_motherboard",
+			"name": "Fried Motherboard",
+			"categories": ["Electrical", "Technological"],
+			"weight": null,
+			"value": 2000,
+			"used_in": {
+				"workshop_upgrades": [
+					{ "station": "utility_station", "level": 4, "quantity": 3 }
+				]
+			}
+		}
+	},
+	"quest_requirements": [
+		"leaper_pulse_unit",
+		"power_rod",
+		"rocketeer_driver",
+		"surveyor_vault",
+		"antiseptic",
+		"hornet_driver",
+		"syringe",
+		"wasp_driver",
+		"water_pump",
+		"snitch_scanner"
+	],
+	"project_requirements": [
+		"leaper_pulse_unit",
+		"magnetic_accelerator",
+		"exodus_modules",
+		"adv_electrical_components",
+		"humidifier",
+		"sensors",
+		"cooling_fan",
+		"battery",
+		"light_bulb",
+		"electrical_components",
+		"wires",
+		"steel_spring",
+		"durable_cloth",
+		"arc_alloy",
+		"rubber_parts",
+		"metal_parts"
+	],
+	"safe_to_recycle": [
+		"accordion",
+		"alarm_clock",
+		"arc_coolant",
+		"arc_flex_rubber",
+		"arc_performance_steel",
+		"arc_synthetic_resin",
+		"arc_thermo_lining",
+		"bicycle_pump",
+		"broken_flashlight",
+		"broken_guidance_system",
+		"broken_handheld_radio",
+		"broken_handcuffs",
+		"broken_taser",
+		"burned_arc_circuitry",
+		"camera_lens",
+		"candle_holder",
+		"coolant",
+		"cooling_coil",
+		"crumpled_plastic_bottle",
+		"damaged_arc_motion_core",
+		"damaged_arc_powercell",
+		"deflated_football",
+		"diving_googles",
+		"dried_out_arc_resin",
+		"expired_respirator",
+		"flute",
+		"frying_pan",
+		"garlic_press",
+		"headphones",
+		"household_cleaner",
+		"ice_cream_scooper",
+		"impure_arc_coolant",
+		"industrial_charger",
+		"industrial_magnet",
+		"metal_brackets",
+		"number_plate",
+		"polluted_air_filter",
+		"portable_tv",
+		"power_bank",
+		"projector",
+		"radio",
+		"remote_control",
+		"ripped_safety_vest",
+		"rubber_pad",
+		"ruined_accordion",
+		"ruined_baton",
+		"ruined_handcuffs",
+		"ruined_parachute",
+		"ruined_riot_shield",
+		"ruined_tactical_vest",
+		"rusted_bolts",
+		"rusty_arc_steel",
+		"spotter_relay",
+		"spring_cushion",
+		"tattered_arc_lining",
+		"tattered_clothes",
+		"thermostat",
+		"torn_blanket",
+		"turbo_pump",
+		"water_filter"
+	],
+	"workshop_upgrades": [
+		{
+			"station": "scrappy",
+			"level": 2,
+			"requirements": [{ "item_id": "dog_collar", "quantity": 1 }]
+		},
+		{
+			"station": "scrappy",
+			"level": 3,
+			"requirements": [
+				{ "item_id": "lemon", "quantity": 3 },
+				{ "item_id": "apricot", "quantity": 3 }
+			]
+		},
+		{
+			"station": "scrappy",
+			"level": 4,
+			"requirements": [
+				{ "item_id": "prickly_pear", "quantity": 6 },
+				{ "item_id": "olives", "quantity": 6 }
+			]
+		},
+		{
+			"station": "scrappy",
+			"level": 5,
+			"requirements": [
+				{ "item_id": "cat_bed", "quantity": 1 },
+				{ "item_id": "mushroom", "quantity": 12 },
+				{ "item_id": "apricot", "quantity": 12 },
+				{ "item_id": "very_comfortable_pillow", "quantity": 3 }
+			]
+		},
+		{
+			"station": "gunsmith",
+			"level": 2,
+			"requirements": [{ "item_id": "rusted_tools", "quantity": 3 }]
+		},
+		{
+			"station": "gunsmith",
+			"level": 3,
+			"requirements": [
+				{ "item_id": "wasp_driver", "quantity": 8 },
+				{ "item_id": "mechanical_components", "quantity": 5 }
+			]
+		},
+		{
+			"station": "gunsmith",
+			"level": 4,
+			"requirements": [{ "item_id": "rusted_gear", "quantity": 3 }]
+		},
+		{
+			"station": "gunsmith",
+			"level": 5,
+			"requirements": [
+				{ "item_id": "adv_mechanical_components", "quantity": 5 },
+				{ "item_id": "sentinel_firing_core", "quantity": 4 }
+			]
+		},
+		{
+			"station": "gear_bench",
+			"level": 2,
+			"requirements": [{ "item_id": "power_cable", "quantity": 3 }]
+		},
+		{
+			"station": "gear_bench",
+			"level": 3,
+			"requirements": [
+				{ "item_id": "electrical_components", "quantity": 5 },
+				{ "item_id": "hornet_driver", "quantity": 5 }
+			]
+		},
+		{
+			"station": "gear_bench",
+			"level": 4,
+			"requirements": [{ "item_id": "industrial_battery", "quantity": 3 }]
+		},
+		{
+			"station": "gear_bench",
+			"level": 5,
+			"requirements": [
+				{ "item_id": "adv_electrical_components", "quantity": 5 },
+				{ "item_id": "bastion_cell", "quantity": 6 }
+			]
+		},
+		{
+			"station": "medical_lab",
+			"level": 2,
+			"requirements": [{ "item_id": "cracked_bioscanner", "quantity": 2 }]
+		},
+		{
+			"station": "medical_lab",
+			"level": 3,
+			"requirements": [
+				{ "item_id": "tick_pod", "quantity": 8 },
+				{ "item_id": "durable_cloth", "quantity": 5 }
+			]
+		},
+		{
+			"station": "medical_lab",
+			"level": 4,
+			"requirements": [{ "item_id": "rusted_shut_medical_kit", "quantity": 3 }]
+		},
+		{
+			"station": "medical_lab",
+			"level": 5,
+			"requirements": [
+				{ "item_id": "antiseptic", "quantity": 8 },
+				{ "item_id": "surveyor_vault", "quantity": 5 }
+			]
+		},
+		{
+			"station": "refiner",
+			"level": 2,
+			"requirements": [{ "item_id": "toaster", "quantity": 3 }]
+		},
+		{
+			"station": "refiner",
+			"level": 3,
+			"requirements": [
+				{ "item_id": "fireball_burner", "quantity": 8 },
+				{ "item_id": "arc_motion_core", "quantity": 5 }
+			]
+		},
+		{
+			"station": "refiner",
+			"level": 4,
+			"requirements": [{ "item_id": "motor", "quantity": 3 }]
+		},
+		{
+			"station": "refiner",
+			"level": 5,
+			"requirements": [
+				{ "item_id": "arc_circuitry", "quantity": 10 },
+				{ "item_id": "bombardier_cell", "quantity": 6 }
+			]
+		},
+		{
+			"station": "explosives_station",
+			"level": 2,
+			"requirements": [{ "item_id": "synthesized_fuel", "quantity": 3 }]
+		},
+		{
+			"station": "explosives_station",
+			"level": 3,
+			"requirements": [
+				{ "item_id": "pop_trigger", "quantity": 5 },
+				{ "item_id": "crude_explosives", "quantity": 5 }
+			]
+		},
+		{
+			"station": "explosives_station",
+			"level": 4,
+			"requirements": [{ "item_id": "laboratory_reagents", "quantity": 3 }]
+		},
+		{
+			"station": "explosives_station",
+			"level": 5,
+			"requirements": [
+				{ "item_id": "explosive_compound", "quantity": 5 },
+				{ "item_id": "rocketeer_driver", "quantity": 3 }
+			]
+		},
+		{
+			"station": "utility_station",
+			"level": 2,
+			"requirements": [{ "item_id": "damaged_heat_sink", "quantity": 2 }]
+		},
+		{
+			"station": "utility_station",
+			"level": 3,
+			"requirements": [
+				{ "item_id": "snitch_scanner", "quantity": 6 },
+				{ "item_id": "electrical_components", "quantity": 5 }
+			]
+		},
+		{
+			"station": "utility_station",
+			"level": 4,
+			"requirements": [{ "item_id": "fried_motherboard", "quantity": 3 }]
+		},
+		{
+			"station": "utility_station",
+			"level": 5,
+			"requirements": [
+				{ "item_id": "adv_electrical_components", "quantity": 5 },
+				{ "item_id": "leaper_pulse_unit", "quantity": 4 }
+			]
+		}
+	],
+	"categories": {
+		"ARC": [
+			"leaper_pulse_unit",
+			"rocketeer_driver",
+			"surveyor_vault",
+			"hornet_driver",
+			"wasp_driver",
+			"snitch_scanner",
+			"arc_alloy",
+			"arc_coolant",
+			"arc_flex_rubber",
+			"arc_performance_steel",
+			"arc_synthetic_resin",
+			"arc_thermo_lining",
+			"burned_arc_circuitry",
+			"damaged_arc_motion_core",
+			"damaged_arc_powercell",
+			"dried_out_arc_resin",
+			"impure_arc_coolant",
+			"rusty_arc_steel",
+			"spotter_relay",
+			"tattered_arc_lining",
+			"tick_pod",
+			"sentinel_firing_core",
+			"bastion_cell",
+			"fireball_burner",
+			"arc_motion_core",
+			"arc_circuitry",
+			"bombardier_cell",
+			"pop_trigger"
+		],
+		"Exodus": [
+			"power_rod",
+			"magnetic_accelerator",
+			"exodus_modules",
+			"ruined_parachute",
+			"turbo_pump",
+			"synthesized_fuel"
+		],
+		"Medical": [
+			"antiseptic",
+			"syringe",
+			"durable_cloth",
+			"expired_respirator",
+			"torn_blanket",
+			"cracked_bioscanner",
+			"rusted_shut_medical_kit",
+			"laboratory_reagents"
+		],
+		"Residential": [
+			"humidifier",
+			"accordion",
+			"alarm_clock",
+			"bicycle_pump",
+			"candle_holder",
+			"crumpled_plastic_bottle",
+			"deflated_football",
+			"diving_googles",
+			"flute",
+			"frying_pan",
+			"garlic_press",
+			"headphones",
+			"household_cleaner",
+			"portable_tv",
+			"power_bank",
+			"projector",
+			"radio",
+			"remote_control",
+			"ruined_accordion",
+			"spring_cushion",
+			"tattered_clothes",
+			"thermostat",
+			"torn_blanket",
+			"dog_collar",
+			"cat_bed",
+			"very_comfortable_pillow",
+			"toaster"
+		],
+		"Industrial": [
+			"water_pump",
+			"broken_guidance_system",
+			"cooling_coil",
+			"industrial_charger",
+			"industrial_magnet",
+			"polluted_air_filter",
+			"ripped_safety_vest",
+			"rusted_bolts",
+			"water_filter",
+			"rusted_gear",
+			"industrial_battery",
+			"crude_explosives",
+			"explosive_compound"
+		],
+		"Electrical": [
+			"adv_electrical_components",
+			"battery",
+			"light_bulb",
+			"electrical_components",
+			"wires",
+			"rubber_parts",
+			"metal_parts",
+			"metal_brackets",
+			"power_bank",
+			"rubber_pad",
+			"power_cable",
+			"industrial_battery",
+			"fried_motherboard"
+		],
+		"Technological": [
+			"sensors",
+			"cooling_fan",
+			"battery",
+			"wires",
+			"steel_spring",
+			"metal_parts",
+			"damaged_heat_sink"
+		],
+		"Security": [
+			"sensors",
+			"broken_flashlight",
+			"broken_handheld_radio",
+			"broken_handcuffs",
+			"broken_taser",
+			"camera_lens",
+			"ruined_baton",
+			"ruined_handcuffs",
+			"ruined_riot_shield",
+			"ruined_tactical_vest",
+			"crude_explosives",
+			"explosive_compound"
+		],
+		"Mechanical": [
+			"rubber_parts",
+			"metal_parts",
+			"coolant",
+			"metal_brackets",
+			"number_plate",
+			"rusted_bolts",
+			"rusted_tools",
+			"mechanical_components",
+			"rusted_gear",
+			"adv_mechanical_components",
+			"motor"
+		],
+		"Commercial": [
+			"durable_cloth",
+			"garlic_press",
+			"headphones",
+			"ice_cream_scooper",
+			"power_bank",
+			"radio",
+			"spring_cushion",
+			"cat_bed",
+			"very_comfortable_pillow"
+		],
+		"Nature": ["lemon", "apricot", "prickly_pear", "olives", "mushroom"]
+	}
+}

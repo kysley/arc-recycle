@@ -29,7 +29,6 @@ function ItemRow({ item, showDetails }: ItemRowProps) {
 						<div className="usage-details">
 							{questCount > 0 && (
 								<div className="detail-section detail-section--quests">
-									<strong className="detail-section__title">Quests:</strong>
 									<ul className="detail-section__list">
 										<li className="detail-section__item">{questCount} required for quests</li>
 									</ul>
@@ -37,7 +36,6 @@ function ItemRow({ item, showDetails }: ItemRowProps) {
 							)}
 							{projectCount > 0 && (
 								<div className="detail-section detail-section--projects">
-									<strong className="detail-section__title">Projects:</strong>
 									<ul className="detail-section__list">
 										<li className="detail-section__item">{projectCount} required for projects</li>
 									</ul>
@@ -45,7 +43,6 @@ function ItemRow({ item, showDetails }: ItemRowProps) {
 							)}
 							{workshopCount > 0 && (
 								<div className="detail-section detail-section--workshop">
-									<strong className="detail-section__title">Workshop Upgrades:</strong>
 									<ul className="detail-section__list">
 										{item.used_in?.workshop_upgrades?.map((upgrade, idx) => (
 											<li key={idx} className="detail-section__item">

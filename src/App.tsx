@@ -1,8 +1,8 @@
-import { useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 import "./App.css";
-import { SearchBar } from "./search-bar";
-import { ItemsTable } from "./items-table";
 import lootData from "./arc_raiders_loot_normalized.json";
+import { ItemsTable } from "./items-table";
+import { SearchBar } from "./search-bar";
 import type { Item } from "./types";
 
 // To array and sort alpha
@@ -36,7 +36,7 @@ function App() {
 	return (
 		<div className="app">
 			<header className="app-header">
-				<h1 className="app-title">ARC RAIDERS LOOT SEARCH</h1>
+				<h1 className="app-title">ARC RAIDERS RECYCLE GUIDE</h1>
 				<SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 				<div className="item-count">
 					{filteredItems.length} / {itemsArray.length} items
